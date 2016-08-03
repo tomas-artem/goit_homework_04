@@ -26,7 +26,6 @@ header {
     border-bottom: 1px solid #128aa7;
 }
 .contacts-countries {
-    /*padding-right: 100px;*/
     float: right;
     padding-top: 10px;
 }
@@ -73,7 +72,7 @@ header {
     font-size: 12px;
 }
 .top-photo {
-
+    height: 100%;
 }
 .top-navigation {
     border-top: 1px solid #cacbcb;
@@ -99,26 +98,32 @@ header {
 .top-navigation .fa-caret-down {
     color: white;
 }
-.menu-adventures {
+.drop-menu {
     width: 150px;
     position: absolute;
     display: none;
-    top: 449px;
-    left: 330px;
+    left: 10px;
     color: green;
     background-color: #303030;
 }
-.menu-adventures li {
+.drop-menu li {
     line-height: 24px;
     padding-left: 10px;
 }
-.adventures .fa-caret-down {
+.adventures, .services, .partners {
     position: relative;
 }
 .adventures:hover .menu-adventures {
     display: block;
 }
+.services:hover .menu-services {
+    display: block;
+}
+.partners:hover .menu-partners {
+    display: block;
+}
 .main {
+    height: 550px;
     overflow: hidden;
     font-size: 12px;
     box-shadow: 0 0 10px black;
@@ -132,26 +137,30 @@ header {
 .main p {
     margin-left: 15px;
     font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    padding-right: 10px;
 }
 .information {
     float: left;
     width: 210px;
+    height: 100%;
     background-color: #edeef0;
     border-right: 1px solid #c7cacf;
-    height: 550px;
+    min-height: 520px;
 }
 .content {
     float: left;
     width: 578px;
     background-color: white;
-    height: 550px;
+    height: 100%;
 }
 .news {
     float: right;
     width: 210px;
+    height: 100%;
     background-color: #edeef0;
     border-left: 1px solid #c7cacf;
-    height: 550px;
 }
 footer {
     text-align: center;
