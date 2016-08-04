@@ -56,12 +56,13 @@ table {
     display: block;
 }
 body {
-    background-color: #bfbfbf;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
+    background: linear-gradient(to bottom,
+        #128aa7 3%,
+        #14cee1 3%, white 17%,
+        #40c4d2 17%, #0c739f 100%, 
+        #0c739f 80%);
     font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
 }
 .container {
     width: 1000px;
@@ -70,7 +71,7 @@ body {
 }
 header {
     background-color: white;
-    height: 175px;
+    height: 174px;
     color: #128aa7;
     border-bottom: 1px solid #128aa7;
 }
